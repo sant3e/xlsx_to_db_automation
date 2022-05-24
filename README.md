@@ -10,11 +10,20 @@ Created an automation script that:
 
 
 ### What is a SharePoint connected Excel File?
-If you have Excel files in Sharepoint or Sharepoint Lists and you want to pull that data from the Sharepoint and then upload to DB.
+If you have Excel files in a Sharepoint Folder or you want to pull that data from a Sharepoint List, dump them into excel files then upload to a Database:
+
 My solution is to create a connection using Excel/Data/Get Data/ 
                                                                 - either: From File/From Sharepoint File (if you have an excel)
                                                                 - either: From Online Services/From Sharepoint Online list (if you have a sharepoint list)
+
 One could just integrate another python script to pull data from Sharepoint Lists into Excel, but in my case, I'm using a corporate Sharepoint which has MultiFactorAuthentication and could not find any (working) library that deals with that. So i simply just bypassed that and create connections within (local) Excel Files
+
+I chose excel files and not csv, due to "preservation" of text. 
+
+While trying this with CSV, my text got scrambled (even though i used a comprehensive encoding). 
+
+Excel files preserved everything as from the original data
+
 
 ### Code and Resources Used
 Python Version: 3.10
