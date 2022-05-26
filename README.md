@@ -33,5 +33,11 @@ https://www.youtube.com/channel/UCW8Ews7tdKKkBT6GdtQaXvQ
 https://platform.stratascratch.com/coding
 
 -------------------------
+
+### Usage
+Drop Excel Files into the **original** folder, run the script. That's it
+
+----------
+
 ### Productionization
 In this step, I built an interface using TKinter that allows the user to push a button to start the script. This part is not integrated here (one might not need this), but I can provide code (on request)
